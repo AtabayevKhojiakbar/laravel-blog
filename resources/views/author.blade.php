@@ -37,7 +37,7 @@
             <div class="authorpostbox">
                 <div class="card">
                     <a href="author.html">
-                        <img class="img-fluid img-thumb" src="assets/img/demopic/8.jpg" alt="">
+                        <img class="img-fluid img-thumb" src="{{asset('assets/img/demopic/8.jpg')}}" alt="">
                     </a>
                     <div class="card-block">
                         <h2 class="card-title"><a href="post.html">Life is worth living forever and ever</a></h2>
@@ -63,7 +63,7 @@
             <div class="authorpostbox">
                 <div class="card">
                     <a href="author.html">
-                        <img class="img-fluid img-thumb" src="assets/img/demopic/10.jpg" alt="">
+                        <img class="img-fluid img-thumb" src="{{asset('assets/img/demopic/10.jpg')}}" alt="">
                     </a>
                     <div class="card-block">
                         <h2 class="card-title"><a href="post.html">Best European capitals to visit and the costs implied</a></h2>
@@ -89,7 +89,7 @@
             <div class="authorpostbox">
                 <div class="card">
                     <a href="author.html">
-                        <img class="img-fluid img-thumb" src="assets/img/demopic/9.jpg" alt="">
+                        <img class="img-fluid img-thumb" src="{{asset('assets/img/demopic/9.jpg')}}" alt="">
                     </a>
                     <div class="card-block">
                         <h2 class="card-title"><a href="post.html">10 Things you should learn before visiting</a></h2>

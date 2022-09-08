@@ -64,7 +64,7 @@
             </div>
 
             <!-- Begin Featured Image -->
-            <img class="featured-image img-fluid" src="assets/img/demopic/10.jpg" alt="">
+            <img class="featured-image img-fluid" src="{{asset('assets/img/demopic/10.jpg')}}" alt="">
             <!-- End Featured Image -->
 
             <!-- Begin Post Content -->
@@ -118,7 +118,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <a href="post.html">
-                        <img class="img-fluid img-thumb" src="assets/img/demopic/9.jpg" alt="">
+                        <img class="img-fluid img-thumb" src="{{asset('assets/img/demopic/9.jpg')}}" alt="">
                     </a>
                     <div class="card-block">
                         <h2 class="card-title"><a href="post.html">Best recreational places to visit on a holiday</a></h2>
@@ -143,7 +143,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <a href="post.html">
-                        <img class="img-fluid img-thumb" src="assets/img/demopic/8.jpg" alt="">
+                        <img class="img-fluid img-thumb" src="{{asset('assets/img/demopic/8.jpg')}}" alt="">
                     </a>
                     <div class="card-block">
                         <h2 class="card-title"><a href="post.html">How travelling can change your life</a></h2>
@@ -168,7 +168,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <a href="post.html">
-                        <img class="img-fluid img-thumb" src="assets/img/demopic/7.jpg" alt="">
+                        <img class="img-fluid img-thumb" src="{{asset('assets/img/demopic/7.jpg')}}" alt="">
                     </a>
                     <div class="card-block">
                         <h2 class="card-title"><a href="post.html">Little red dress and a perfect summer</a></h2>
@@ -200,7 +200,7 @@
 ================================================== -->
 <div class="alertbar">
     <div class="container text-center">
-        <img src="assets/img/logo.png" alt=""> &nbsp; Never miss a <b>story</b> from us, get weekly updates in your inbox. <a href="#" class="btn subscribe">Get Updates</a>
+        <img src="{{asset('assets/img/logo.png')}}" alt=""> &nbsp; Never miss a <b>story</b> from us, get weekly updates in your inbox. <a href="#" class="btn subscribe">Get Updates</a>
     </div>
 </div>
 <!-- End AlertBar
