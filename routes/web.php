@@ -13,9 +13,9 @@ use App\Http\Controllers\BlogController;
 |
 */
 
-Route::get('/',[BlogController::class,'index']);
-Route::get('/post',[BlogController::class,'post']);
-Route::get('/author',[BlogController::class,'author']);
+Route::get('/',[BlogController::class,'index'])->name('index');
+Route::get('/post',[BlogController::class,'post'])->name('post');
+Route::get('/author',[BlogController::class,'author'])->name('author');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
