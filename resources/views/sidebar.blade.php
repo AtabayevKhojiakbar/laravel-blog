@@ -5,10 +5,10 @@
 
 
 
-                <li class="nav-item {{  request()->routeIs('admin.shoir.index') ? 'active' : '' }}">
-                    <a href="">
+                <li class="nav-item {{  request()->routeIs('adminpost.index') ? 'active' : '' }}">
+                    <a href="{{route('adminpost.index')}}">
                         <i class="fas fa-pen"></i>
-                        <p>Shoirlar</p>
+                        <p>Postlar</p>
                     </a>
                 </li>
 

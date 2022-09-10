@@ -74,8 +74,10 @@
             <div class="page-inner py-5">
                 {{-- @include('alerts')--}}
 
+<div class="card">
+    @yield('content')
+</div>
 
-                @yield('content')
 
             </div>
         </div>
