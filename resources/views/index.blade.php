@@ -27,7 +27,7 @@
 		<div class="card">
 			<div class="row">
 				<div class="col-md-5 wrapthumbnail">
-					<a href="post.html">
+					<a href="">
 						<div class="thumbnail" style="background-image:url({{asset('assets/img/demopic/1.jpg')}});">
 						</div>
 					</a>
