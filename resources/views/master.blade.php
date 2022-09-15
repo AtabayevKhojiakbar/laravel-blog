@@ -75,6 +75,9 @@
                 {{-- @include('alerts')--}}
 
 <div class="card">
+    @if(session('xabar'))
+    <div class="card"><h1 class="text text-black">{{session('xabar')}}</h1></div>
+    @endif
     @yield('content')
 </div>
 

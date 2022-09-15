@@ -21,4 +21,7 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
+Route::resource('test2',\App\Http\Controllers\Test2Controller::class);
+
+
 require __DIR__.'/auth.php';

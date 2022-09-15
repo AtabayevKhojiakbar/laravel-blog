@@ -18,6 +18,12 @@
                         <p>Sherlar</p>
                     </a>
                 </li>
+                <li class="nav-item {{  request()->routeIs('test2.index') ? 'active' : '' }}">
+                    <a href="{{route('test2.index')}}">
+                        <i class="fas fa-building"></i>
+                        <p>Test crud</p>
+                    </a>
+                </li>
 
 
             </ul>
